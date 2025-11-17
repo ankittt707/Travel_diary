@@ -28,7 +28,7 @@ const SignUp = () => {
         try{
 
         console.log("button pressed")
-        const url="http://localhost:8080/auth/signup"
+        const url="https://travel-diary-xak8.onrender.com/auth/signup"
         const response=await fetch(url,{
             method:"POST",
             headers:{
